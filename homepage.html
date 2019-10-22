@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <a href="https://www.google.com">Request Items</a>
+    <a href="https://www.google.com">Make a Donation</a>
+    <div class="dropdown">
+    <button class="dropbtn">About Us</button>
+      <div class="dropdown-content">
+       <a href="#">Contact Us</a>
+       <a href="#">FAQs</a>
+       <a href="#">Mission Statement</a>
+      </div>
+</div>
+</body>
+
+</html>
+<style>
+    a {
+        display: inline-block;
+        height: 50px;
+        width: 140px;
+        background: lightpink; 
+        padding-left: 20px;
+        padding-right: 20px; 
+        line-height: 50px;
+        text-decoration: none;
+        color: black;
+        font-family: Arial;
+        text-align: center;
+    }
+    a:hover {
+        background: lightgreen; 
+     }
+
+    .dropbtn {
+        display: inline-block;
+        background-color: lightpink;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 50px;
+        font-size: 16px;
+        width: 180px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+}
+.dropdown-content a:hover {background-color: lavender;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: lightgreen;}
+
+
+</style>
